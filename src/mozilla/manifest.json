@@ -1,0 +1,18 @@
+{
+    "description": "Skip Steam's age verification. That's it.",
+    "manifest_version": 2,
+    "permissions": ["tabs", "cookies", "*://store.steampowered.com/"],
+    "name": "ageSkiip",
+    "author": "(at)owohai",
+    "homepage_url": "https://github.com/owohai/ageSkiip",
+    "version": "1.1",
+    "icons": {
+      "48": "icons/iconNewX48.png"
+    },
+  
+    "background": {
+        "scripts": ["18nomore.js"],
+        "persistent": true
+      }      
+  
+  }
